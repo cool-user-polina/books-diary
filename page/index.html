@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список книг</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Список книг</h1>
+        <!-- Список книг -->
+        <ul id="book-list">
+        </ul>
+        <!-- Детальная информация о книге -->
+        <div id="book-detail" class="hidden">
+            <button id="back-button">Назад</button>
+            <h2 id="book-title"></h2>
+            <h3 id="book-author"></h3>
+            <p id="book-description"></p>
+        </div id="edit-book" class="hidden">
+        <h2>Редактирование книги</h2>
+        <label for="edit-name">Название:</label>
+        <input type="text" id="edit-name"><br>
+        <label for="edit-author">Автор:</label>
+        <input type="text" id="edit-author"><br>
+        <label for="edit-description">Описание:</label>
+        <textarea id="edit-description"></textarea><br>
+        <button id="save-button">Сохранить</button>
+        <button id="cancel-button">Отмена</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

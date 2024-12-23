@@ -1,0 +1,64 @@
+/* Базовые стили для всего документа */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Оформление контейнера */
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Список книг */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #abb7f1;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+ul li:hover {
+    background: #2b3d52;
+}
+
+/* Скрытый элемент */
+.hidden {
+    display: none;
+}
+
+/* Кнопка "Назад" */
+#back-button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background: #92b9e3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#back-button:hover {
+    background: #465c73;
+}
